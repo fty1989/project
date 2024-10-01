@@ -1,0 +1,119 @@
+* {
+    margin: 0px; /* no border to the viewable frame */
+    padding: 0px; /* no padding to the viewable frame */
+    box-sizing: border-box;
+}
+
+.head-item h1{
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration-color: aquamarine;
+  padding: 5px;
+  border: 30px;
+  text-size-adjust:5px ;
+}
+
+@keyframes moving{
+
+from{
+  transform: translateX(-900px) ;
+
+}
+to{
+transform:translateX(200) ;
+
+}
+
+}
+
+.head-item h1{
+  animation-name:moving ;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  
+}
+
+.head {
+    /* padding-left: px; */
+    display: flex;
+  /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-between;
+    font-size:20px ;
+    padding: 20px; 
+    margin: 30; */
+  }
+
+  .head-item {
+    display: flex;
+     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+   }
+
+  .topmenu a {
+    color: #932727;
+    padding: 0.5rem .75rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    float: right; 
+
+  }
+
+  .topmenu {
+    display: flex;
+justify-content: right;
+   }
+
+  header {
+      background-color: rgb(151, 228, 51);
+  }
+
+.img{
+    font-size:20px ;
+    padding: 20px;
+    margin: 30; 
+}
+
+
+.direction{
+    font-weight: bold;
+}
+
+body{
+background-color: lightwheat;
+font-family: 'Times New Roman', Times, serif;
+font-size: 22px;
+}
+
+.address {
+  
+  /* height: 100px; */
+  /* text-align: left; */
+  
+  /* border-radius: 20px; */
+  /* margin-left: 5px; */
+}
+
+
+.foot{
+  display: flex;
+  background-color:lightslategrey;
+  font-style: italic;
+  padding: 20px;
+}
+
+.address p {
+  color: black;
+  margin: 5px;
+}
+
+.foot contact{
+  display: flex;
+  justify-content: center;
+}
+
